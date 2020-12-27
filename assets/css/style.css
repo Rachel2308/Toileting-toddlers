@@ -1,6 +1,15 @@
+body {
+    background-color: 	#ecf3f7;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: 	#404040;
+}
+
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #008a99;
   overflow: auto;
 }
 
@@ -12,19 +21,55 @@
   color: white;
   text-decoration: none;
   font-size: 17px;
+  margin: 2px;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+  background-color: 	 #007380;
+  border-radius: 4px;
 }
+
 
 /* Current/active navbar link */
 .active {
-  background-color: #4CAF50;
+  background-color: #00454d;
+  border-radius: 4px;
 }
 
 .header-text {
     color: white;
-    font-size: 2em;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #008a99;
+}
+
+footer a {
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-menu a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.footer-menu a:hover {
+ 
+  text-decoration: none;
+  color: #00454d;
+ 
 }
