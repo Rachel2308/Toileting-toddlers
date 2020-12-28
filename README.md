@@ -1,4 +1,4 @@
-# Toileting Toddlers
+# Locate a Loo
 ## A Milestone 2 Project by Rachel Sherlock
 
 [View the live project]

@@ -1,11 +1,10 @@
 body {
     background-color: 	#ecf3f7;
     font-family: 'Lato', sans-serif;
-}
-
-p {
     color: 	#404040;
 }
+
+
 
 /* Navbar code based on tutorial from w3schools https://www.w3schools.com/howto/howto_css_navbar_icon.asp and amended to suit my required style */
 
@@ -14,9 +13,11 @@ p {
     font-size: 2.5em;
     font-weight: 700;
     padding-left: 12px;
-   padding-right: 12px;
+    padding-right: 12px;
     
 }
+
+
 
 .header-text:hover {
     background-color: 	 #007380;
@@ -34,11 +35,11 @@ p {
 
 .navbar-right a {
   float: right;
-  text-align: center;
+  
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
   margin: 2px;
 }
 
@@ -52,7 +53,27 @@ p {
   border-radius: 4px;
 }
 
+/* homepage  */
 
+.main-content {
+    width: 50%;
+    border: 2px solid #007380;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 40%;
+  border-radius: 10px;
+}
 
 
 
