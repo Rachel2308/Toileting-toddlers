@@ -7,12 +7,23 @@ p {
     color: 	#404040;
 }
 
-/* Navbar code based on tutorial from w3schools https://www.w3schools.com/howto/howto_css_navbar_icon.asp and amended to suit my goals */
+/* Navbar code based on tutorial from w3schools https://www.w3schools.com/howto/howto_css_navbar_icon.asp and amended to suit my required style */
 
 .header-text {
     color: white;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
+    padding-left: 12px;
+   padding-right: 12px;
+    
+}
+
+.header-text:hover {
+    background-color: 	 #007380;
+    text-decoration: none;
+    color: white;
+   
+   
 }
 
 .navbar {
@@ -21,7 +32,7 @@ p {
   overflow: auto;
 }
 
-.navbar a {
+.navbar-right a {
   float: right;
   text-align: center;
   padding: 12px;
@@ -68,14 +79,11 @@ footer a {
 }
 
 .footer-menu a:hover {
- 
   text-decoration: none;
   color: #00454d;
 }
 
-.social-links a{
-    
-    
+.social-links a{  
     margin: 5px;
 }
 
