@@ -77,7 +77,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script>
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 3,
+                    center: {
+                        lat: 52.40774,
+                        lng: -1.51105
+                    }
+                });
+            }
+            
+        </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjAX65KXWPhWCsxb_2yURmzMJbC9R4nuY&callback=initMap"></script>
        
 </body>
