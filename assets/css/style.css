@@ -176,7 +176,8 @@ textarea {
 #map {
     
     height: 400px;
-    width: 70%;
+    width: 50%;
     margin: auto;
-    margin: 150px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
