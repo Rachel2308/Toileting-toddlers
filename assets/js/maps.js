@@ -8,10 +8,26 @@ function initMap() {
         }
     });
 
+  const infoWin = new google.maps.InfoWindow();
+  const markers = locations.map(function(location, i) {
+    const marker = new google.maps.Marker({
+      position: location
+    });
+    google.maps.event.addListener(marker, 'click', function(evt) {
+      infoWin.setContent(location.info);
+      infoWin.open(map, marker);
+    })
+    return marker;
+  });
+  const markerCluster = new MarkerClusterer(map, markers, {
+    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+    });
+}
+
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
-        { lat: 52.41232, lng: -1.53119 },
+        { lat: 52.41232, lng: -1.53119, info:'<h2>Morrisons</h2><br><h3>Address:</h3>Holyhead Road<br>Coventry<br>CV5 8BX<br><h3>Amenities:</h3><li>Pushchair accessible cubicle</li><li>Handsfree flush</li> <li>Baby change accessible to all</li><li>Accessible by car</li>', },
         { lat: 52.41262, lng: -1.52850 },
         { lat: 52.39530, lng: -1.52123 },
         { lat: 52.40773, lng: -1.51416 },
@@ -37,6 +53,7 @@ function initMap() {
         { lat: 52.40658, lng: -1.51267 },
         { lat: 52.40829, lng: -1.51488 },
     ];
+    
 
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
@@ -47,6 +64,5 @@ function initMap() {
 
     var markerCluster = new MarkerClusterer(map, markers,
         { imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m" });
-}
 
 
