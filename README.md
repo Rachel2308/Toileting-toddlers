@@ -3,9 +3,10 @@
 
 [View the live project](https://rachel2308.github.io/locate-a-loo/index.html)
 
-![](/documentation/locate-a-loo-home-page.png)
+![](./documentation/locate-a-loo-home-page.png)
 
-![](/documentation/am-i-responsive-MS2.png)
+
+![](./documentation/am-i-responsive-MS2.png)
 
 The idea for this website came about through my own experiences as a Mum and needing to find the nearest public toilet quickly whilst out with both babies in nappies 
 and older children who can't wait. As well as knowing where the nearest toilet was, I felt that being able to make sure that the toilets had the facilities that you require 
@@ -68,32 +69,32 @@ of toddlers who were toilet training. However I realised that this would limit i
 
 The front page contains a slideshow of images, designed to draw the eye and make the front page eye catching and interesting to look at.
 
-![](documentation/screenshot-slideshow.png)
+![](./documentation/screenshot-slideshow.png)
 
 #### 2. Front Page content
 
 The content on the front page enables uses to quickly see what the site is about, and will be used to include keywords to enable to site to improve its SEO.
 
-![](documentation/screenshot-front-page-content.png)
+![](./documentation/screenshot-front-page-content.png)
 
 #### 3. Map content
 
 The content on the map page gives a clear guide to how to use the maps. This is important for anyone that may not be used to how google maps works.
 
-![](documentation/screenshot-map-content.png)
+![](./documentation/screenshot-map-content.png)
 
 #### 4. Map 
 
 The map enables people to look for their location and see where the nearest public conveniences area
 
-![](documentation/screenshot-map.png)
+![](./documentation/screenshot-map.png)
 
 #### 5. Map Pop-Up Boxes
 
 Once the user has found their nearest toilet, they will be able to click on the flag to find out the full address, and the facilities that are availble. This 
 will enable them to check that they are going to a toilet that best suits their needs.
 
-![](documentation/screenshot-map-text-box.png)
+![](./documentation/screenshot-map-text-box.png)
 
 #### 6. Contact Form
 

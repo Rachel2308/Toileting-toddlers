@@ -12,7 +12,8 @@ function initMap() {
     var window = new google.maps.InfoWindow();
     var markers = locations.map(function (location, i) {
         var marker = new google.maps.Marker({
-            position: location
+            position: location,
+            icon: "assets/images/map-icon-3.png"
         });
         google.maps.event.addListener(marker, 'click', function (evt) {
             window.setContent(location.info);
