@@ -181,6 +181,13 @@ textarea {
     background-color: #f5f8fa
 }
 
+#emailcheck {
+    width: 20%;
+    border-width: 2px;
+    border: #626567;
+
+}
+
 
 /* Map */
 

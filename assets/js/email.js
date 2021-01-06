@@ -8,6 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            window.alert("Thank you for your email!");
         },
         function(error) {
             console.log("FAILED", error);
@@ -16,3 +17,5 @@ function sendMail(contactForm) {
     );
     return false;
 }
+
+
