@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Locate a Loo</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_jHx0e0nGmFWbraP8iuO1x");
+            
+        })();
+    </script>
 </head>
 
 <body>
@@ -36,7 +44,8 @@
                             <li class="nav-item mr-2"><a href="toilets.html"><i class="fas fa-search"></i> Find a
                                     Toilet</a>
                             </li>
-                            <li class="nav-item mr-2"><a class="active" href="contact.html"><i class="fas fa-envelope"></i> Contact
+                            <li class="nav-item mr-2"><a class="active" href="contact.html"><i
+                                        class="fas fa-envelope"></i> Contact
                                     Us</a>
                             </li>
                         </ul>
@@ -46,60 +55,64 @@
         </nav>
     </header>
 
-        <div class="text-center main-content contact-text-box">
-            <p>Locate a Loo's success depends on you.</p><br>
-            <p>We aim to keep the toilet details up-to-date, but that means that if the facilities in one of our listed loos has changed, please let us know, so that we can update the listing. </p><br>
-            <p>If you locate a new, unlisted loo, again, please tell us and we'll include it, allowing our users to benefit from the discovery.  </p>
+    <div class="text-center main-content contact-text-box">
+        <p>Locate a Loo's success depends on you.</p><br>
+        <p>We aim to keep the toilet details up-to-date, but that means that if the facilities in one of our listed loos
+            has changed, please let us know, so that we can update the listing. </p><br>
+        <p>If you locate a new, unlisted loo, again, please tell us and we'll include it, allowing our users to benefit
+            from the discovery. </p>
 
 
-        </div>
+    </div>
 
-       <div class="container contact-form form-text">
-      
-      <!--No action or method have been included in the form as doing so would go to a form dump outside of this website-->
-      
-      <form>   
-        <div class="row">
-          <div class="form-name">
-            <label for="name">Name:</label>
-          </div>
-          <div class="form-text-box">
-            <input type="text" id="name" name="name" placeholder="Your name.." required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="form-name">
-            <label for="email">Email:</label>
-          </div>
-          <div class="form-text-box">
-            <input type="email" id="email" name="email" placeholder="Your email address.." required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="form-name reason-text-box">
-            <label for="reason">Contact Reason:</label>
-          </div>
-          <div class="form-text-box contact-us-dropdown">
-            <select id="reason" name="reason">
-              <option value="report">Report a problem</option>
-              <option value="toilet">Add a toilet</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="form-name">
-            <label for="subject">Message:</label>
-          </div>
-          <div class="form-text-box">
-            <textarea id="subject" name="subject" placeholder="Your Message..." style="height:200px" required></textarea>
-          </div>
-        </div>
-        <div class="submit-button">
-          <div class="row">
-            <input type="submit" value="Submit" class="submit-text">
-          </div>
-        </div>
-      </form>
+    <div class="container contact-form form-text">
+
+        
+
+        <form onsubmit="return sendMail(this);">
+            <div class="row">
+                <div class="form-name">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="form-text-box">
+                    
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-name">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="form-text-box">
+                    <input type="email" id="email" name="emailaddress" placeholder="Your email address.." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-name reason-text-box">
+                    <label for="reason">Contact Reason:</label>
+                </div>
+                <div class="form-text-box contact-us-dropdown">
+                    <select id="reason" name="reason">
+                        <option value="report">Report a problem</option>
+                        <option value="toilet">Add a toilet</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-name">
+                    <label for="subject">Message:</label>
+                </div>
+                <div class="form-text-box">
+                    <textarea id="subject" name="subject" placeholder="Your Message..." style="height:200px"
+                        required></textarea>
+                </div>
+            </div>
+            <div class="submit-button">
+                <div class="row">
+                    <input type="submit" value="Submit" class="submit-text">
+                </div>
+            </div>
+        </form>
     </div>
 
 
@@ -129,6 +142,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>
