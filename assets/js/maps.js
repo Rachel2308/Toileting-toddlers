@@ -1,3 +1,4 @@
+/* Code based on code on the google maps JavaScript API documentation */
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {

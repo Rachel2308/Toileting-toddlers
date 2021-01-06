@@ -1,7 +1,7 @@
 # Locate a Loo
 ## A Milestone 2 Project by Rachel Sherlock
 
-[View the live project]
+[View the live project](https://rachel2308.github.io/locate-a-loo/index.html)
 
 
 ## User Experience (UX)
