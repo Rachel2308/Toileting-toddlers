@@ -64,6 +64,7 @@ body {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #f5f8fa;
 
 }
 
@@ -128,9 +129,9 @@ footer a {
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 10px;
-	background-color: #FBFCFC;
+	background-color: #f5f8fa;
     padding: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 100px;
     display: block;
 }
@@ -175,13 +176,9 @@ textarea {
 	font-size: 18px;
 }
 
-#map {
-    
-    height: 400px;
-    width: 50%;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 100px;
+.contact-text-box {
+    margin-top: 120px;
+    background-color: #f5f8fa
 }
 
 
@@ -198,7 +195,19 @@ h3 {
     margin-top: 5px;
 }
 
+.map-text-box {
+    margin-top: 120px;
+    background-color: #f5f8fa
+}
 
+#map {
+    
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 
 
@@ -215,6 +224,10 @@ h3 {
     
     .mySlides {
         width: 40%;
+    }
+
+    .map-text-box {
+        width: 60%;
     }
 }
 
@@ -233,6 +246,10 @@ h3 {
 		width: 60%;
     }
     
+    .map-text-box {
+        width: 60%;
+    }
+    
     .mySlides {
         width: 60%;
     }
@@ -248,6 +265,10 @@ h3 {
 
     .main-content  {
 		width: 70%;
+    }
+
+    .map-text-box {
+        width: 70%;
     }
 
     .contact-form {
@@ -275,6 +296,10 @@ h3 {
         width: 80%;
     }
 
+    .map-text-box {
+        width: 80%;
+    }
+
     .mySlides {
         width: 80%;
     }
@@ -283,10 +308,7 @@ h3 {
         width: 70%;
     }
 
-    .contact-us-dropdown {
-        width: 75%;
-    }
-
+   
 }
 
 
