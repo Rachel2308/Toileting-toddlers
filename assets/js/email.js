@@ -9,7 +9,9 @@ function sendMail(contactForm) {
         function(response) {
             console.log("SUCCESS", response);
             document.getElementById("emailcheck").innerHTML= "Success! Your email has been sent.";
-            document.getElementById("myForm").reset();
+            contactForm.name.value = "";
+            contactForm.emailaddress.value = "";
+            contactForm.subject.value = "";
         },
         
         function(error) {
