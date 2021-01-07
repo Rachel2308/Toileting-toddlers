@@ -171,21 +171,24 @@ were no syntax errors on any of the pages of the project.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 * [JS Hint](https://jshint.com/)
 
-Each page of Javascript, HTML and the CSS file were all checked. All results came back as completely clear of errors.
+Each page of Javascript, HTML and the CSS file were all checked. All results for HTML and CSS came back as completely clear of errors.
+The JS results show some unused and undefined variables, however I believe that this is because the pages were check independently, and the 
+variables have been used in other places in the project. The site has been tested extensively and any warnings given by JSHint have not affected
+the site.
 
 * Results
     * HTML
-        * [Homepage]()
-        * [Toilets]()
-        * [Contact Us]()
+        * [Homepage](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-html-checker-index.pdf)
+        * [Toilets](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-html-checker-toilets.pdf)
+        * [Contact Us](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-html-checker-contact.pdf)
 
-    * [CSS]()
+    * [CSS](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-css-checker-pdf.pdf)
 
     * Javascript 
-        * [email.js]()
-        * [maps.js]()
-        * [data.js]()
-        * [home.js]()
+        * [email.js](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-JS-checker-email.pdf)
+        * [maps.js](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-JS-checker-maps.pdf)
+        * [data.js](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-JS-checker-data.pdf)
+        * [home.js](https://github.com/Rachel2308/locate-a-loo/blob/master/documentation/MS2-JS-checker-home.pdf)
 
 ### Testing User Stories from User Experience Section
 
@@ -217,7 +220,7 @@ Each page of Javascript, HTML and the CSS file were all checked. All results cam
          * The contact form will enable users to email to update the site with any changes to the facilities there, for example if the site once only had 
            a baby change that was accessible in the female toilets but have now added further facilities. 
 
-          ![](./documentation/screenshot-contact-form.png)   
+         ![](./documentation/screenshot-contact-form.png)       
 
         2. As a returning user, I will want to be able to plan ahead on trips out to make sure that local toilets have the facilities that I need
 
@@ -311,7 +314,6 @@ How to clone Locate a Loo from GitHub
 6. To clone, copy this code and input it into your terminal:
 
 http://github.com/rachel2308/locatealoo.git
-
 
 
 ## Credits
