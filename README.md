@@ -289,10 +289,11 @@ user experience issues.
 How to clone Locate a Loo from GitHub
 
 1. Navigate to /rachel2308/locate-a-loo
-2. Click on the green Code button.
-3. Copy the URL listed.
-4. Start up your IDE and navigate to the file location.
-5. To clone, copy this code and input it into your terminal:
+2. Click on the green Code button
+3. Select the code dropdown button beside the Gitpod button
+4. Copy the URL listed.
+5. Start up your IDE and navigate to the file location.
+6. To clone, copy this code and input it into your terminal:
 
 http://github.com/rachel2308/locatealoo.git
 

@@ -1,126 +1,117 @@
 body {
-    background-color: 	#ecf3f7;
-    font-family: 'Lato', sans-serif;
-    color: 	#404040;
+	background-color: #ecf3f7;
+	font-family: 'Lato', sans-serif;
+	color: #404040;
 }
-
 
 
 /* Navbar code based on tutorial from w3schools https://www.w3schools.com/howto/howto_css_navbar_icon.asp and amended to suit my required style */
 
 .header-text {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 700;
-    padding-left: 12px;
-    padding-right: 12px;
-    
+	color: white;
+	font-size: 2.5em;
+	font-weight: 700;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
-
-
 .header-text:hover {
-    background-color: 	 #007380;
-    text-decoration: none;
-    color: white;
-   
-   
+	background-color: #007380;
+	text-decoration: none;
+	color: white;
 }
 
 .navbar {
-  width: 100%;
-  background-color: #008a99;
-  overflow: auto;
+	width: 100%;
+	background-color: #008a99;
+	overflow: auto;
 }
 
 .navbar-right a {
-  float: right;
-  
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  margin: 2px;
+	float: right;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 2px;
 }
 
 .navbar a:hover {
-  background-color: 	 #007380;
-  border-radius: 4px;
+	background-color: #007380;
+	border-radius: 4px;
 }
 
 .active {
-  background-color: #00454d;
-  border-radius: 4px;
+	background-color: #00454d;
+	border-radius: 4px;
 }
+
 
 /* homepage  */
 
 .main-content {
-    width: 50%;
-    border: 2px solid #007380;
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #f5f8fa;
-
+	width: 50%;
+	border: 2px solid #007380;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #f5f8fa;
 }
 
 .mySlides {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  width: 40%;
-  border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	width: 40%;
+	border-radius: 10px;
 }
-
-
 
 
 /* Footer */
 
 footer {
-    background-color: #008a99;
+	background-color: #008a99;
 }
 
 footer a {
-    color: white;
+	color: white;
 }
 
 .footer-text {
-    color: white;
+	color: white;
 }
 
-.footer-menu a{
-    display: block;
-    text-align: center;
-    padding: 5px;
-    margin: 2px;
+.footer-menu a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	margin: 2px;
 }
 
 .footer-menu a:hover {
-  text-decoration: none;
-  color: #00454d;
+	text-decoration: none;
+	color: #00454d;
 }
 
-.social-links a{  
-    margin: 5px;
+.social-links a {
+	margin: 5px;
 }
 
 .social-links {
-    padding-bottom: 5px;
-    padding-top: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
-
 
 .social-links a:hover {
-      text-decoration: none;
-      color: #00454d;
+	text-decoration: none;
+	color: #00454d;
 }
+
 
 /* Contact Form */
 
@@ -130,10 +121,10 @@ footer a {
 	border-width: 2px;
 	border-radius: 10px;
 	background-color: #f5f8fa;
-    padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: block;
+	padding: 50px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	display: block;
 }
 
 .form-name {
@@ -163,12 +154,12 @@ textarea {
 	border-radius: 4px;
 	width: 60px;
 	padding-bottom: 3px;
-    margin: auto;
-    margin-top: 15px;
+	margin: auto;
+	margin-top: 15px;
 }
 
 .submit-text {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .form-text {
@@ -177,146 +168,114 @@ textarea {
 }
 
 .contact-text-box {
-    margin-top: 120px;
-    background-color: #f5f8fa
+	margin-top: 120px;
+	background-color: #f5f8fa
 }
 
 
 /* Map */
 
 h2 {
-    font-size: 25px;
-    text-align: center;
-    margin: -5px;
+	font-size: 25px;
+	text-align: center;
+	margin: -5px;
 }
 
 h3 {
-    font-size: 20px;
-    margin-top: 5px;
+	font-size: 20px;
+	margin-top: 5px;
 }
 
 .map-text-box {
-    margin-top: 120px;
-    background-color: #f5f8fa
+	margin-top: 120px;
+	background-color: #f5f8fa
 }
 
 #map {
-    
-    height: 400px;
-    width: 50%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
+	height: 400px;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
-
 
 
 /*----------gallery media queries----------*/
 
-@media screen and (max-width: 1393px){
-    #map {
-        width: 50%;
-    }
-
-    .contact-form {
+@media screen and (max-width: 1393px) {
+	#map {
 		width: 50%;
-    }
-    
-    .mySlides {
-        width: 40%;
-    }
-
-    .map-text-box {
-        width: 60%;
-    }
+	}
+	.contact-form {
+		width: 50%;
+	}
+	.mySlides {
+		width: 40%;
+	}
+	.map-text-box {
+		width: 60%;
+	}
 }
-
 
 @media screen and (max-width: 992px) {
-
-    #map{
-        width: 70%;
-    }
-
-    .main-content  {
+	#map {
+		width: 70%;
+	}
+	.main-content {
 		width: 80%;
-    }
-
-    .contact-form {
+	}
+	.contact-form {
 		width: 60%;
-    }
-    
-    .map-text-box {
-        width: 60%;
-    }
-    
-    .mySlides {
-        width: 60%;
-    }
-
+	}
+	.map-text-box {
+		width: 60%;
+	}
+	.mySlides {
+		width: 60%;
+	}
 }
-
 
 @media screen and (max-width: 768px) {
-
-     #map{
-        width: 80%;
-    }
-
-    .main-content  {
-		width: 70%;
-    }
-
-    .map-text-box {
-        width: 70%;
-    }
-
-    .contact-form {
-		width: 70%;
-    }
-    
-    .mySlides {
-        width: 70%;
-    }
-
-}
-
-
-@media screen and (max-width: 576px)   {
-
-    #map {
-        width: 90%;
-    }
-
-    .contact-form {
+	#map {
 		width: 80%;
-    }
-    
-    .main-content {
-        width: 80%;
-    }
-
-    .map-text-box {
-        width: 80%;
-    }
-
-    .mySlides {
-        width: 80%;
-    }
-
-    .form-text-box {
-        width: 70%;
-    }
-
-   
+	}
+	.main-content {
+		width: 70%;
+	}
+	.map-text-box {
+		width: 70%;
+	}
+	.contact-form {
+		width: 70%;
+	}
+	.mySlides {
+		width: 70%;
+	}
 }
 
+@media screen and (max-width: 576px) {
+	#map {
+		width: 90%;
+	}
+	.contact-form {
+		width: 80%;
+	}
+	.main-content {
+		width: 80%;
+	}
+	.map-text-box {
+		width: 80%;
+	}
+	.mySlides {
+		width: 80%;
+	}
+	.form-text-box {
+		width: 70%;
+	}
+}
 
 @media screen and (max-width: 390px) {
-
-    .header-text {
-        font-size: 1.8em;
-
+	.header-text {
+		font-size: 1.8em;
+	}
 }
-}
-
