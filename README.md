@@ -5,9 +5,6 @@
 
 ![](./documentation/locate-a-loo-home-page.png)
 
-
-![](./documentation/am-i-responsive-MS2.png)
-
 The idea for this website came about through my own experiences as a Mum and needing to find the nearest public toilet quickly whilst out with both babies in nappies 
 and older children who can't wait. As well as knowing where the nearest toilet was, I felt that being able to make sure that the toilets had the facilities that you require 
 would also be a useful feature. For example, knowing in advance that the baby changing facilities can only be accessed from within the ladies' toilets is critically important
@@ -15,11 +12,17 @@ for fathers.
 
 I believed that the site should be kept simple so that people did not have to contend with complex navigation when they needed to get the information in a hurry. 
 
-The contact form enables the site to be kept up to date through users updating the available amenities, and also allows for the expansion of the site to other 
-places through user interaction. 
+Although the site only currently features facilities in Coventry, the aim of the site is that it will eventually span the whole of the UK. This would be done 
+through user interaction. The contact form enables the site to be kept up to date through users updating the available amenities, and also allows for this 
+expansion of the site to other places through user input. 
 
+![](./documentation/am-i-responsive-MS2.png)
 
 ## User Experience (UX)
+
+As part of my research for the site, I spoke to members of a local facebook page for Mums. I asked them what they would find useful on a site such as this, and if it would be 
+a site that they would use. The feedback was very positive with everyone saying that they would find this kind of site to be very useful for all ages. They also told me what 
+they would find most useful for it to show and this has formed the basis of its features, and also for the features left to implement.
 
 * **User Stories** 
     * **First Time User Goals**
@@ -53,6 +56,10 @@ content easier to read.
 
 ### Imagery
 
+The site has been kept light on images as it is primarily a site to be used when out and about on mobile so I wanted to keep the site clean and clear. However, on the 
+home page I have added a slideshow to make that page interesting and capture user's attention. As one use of the site is for planning days out and knowing where 
+the nearest toilets are, I have included eye-catching images of tourist attractions. While images of toilets may have been more relevant, they don't make for 
+such attractive images and may put users off the site. 
 
 ### Wireframes
 
@@ -65,63 +72,63 @@ of toddlers who were toilet training. However I realised that this would limit i
 
 ### Existing Features
 
-#### 1. Images
+### 1. Images
 
 The front page contains a slideshow of images, designed to draw the eye and make the front page eye catching and interesting to look at.
 
 ![](./documentation/screenshot-slideshow.png)
 
-#### 2. Front Page content
+### 2. Front Page content
 
 The content on the front page enables uses to quickly see what the site is about, and will be used to include keywords to enable to site to improve its SEO.
 
 ![](./documentation/screenshot-front-page-content.png)
 
-#### 3. Map content
+### 3. Map content
 
 The content on the map page gives a clear guide to how to use the maps. This is important for anyone that may not be used to how google maps works.
 
 ![](./documentation/screenshot-map-content.png)
 
-#### 4. Map 
+### 4. Map 
 
 The map enables people to look for their location and see where the nearest public conveniences area
 
-![](./documentation/screenshot-map.png)
+![](./documentation/screenshot-map2.png)
 
-#### 5. Map Pop-Up Boxes
+### 5. Map Pop-Up Boxes
 
 Once the user has found their nearest toilet, they will be able to click on the flag to find out the full address, and the facilities that are availble. This 
 will enable them to check that they are going to a toilet that best suits their needs.
 
-![](./documentation/screenshot-map-text-box.png)
+![](./documentation/screenshot-map-info-window.png)
 
-#### 6. Contact Form
+### 6. Contact Form
 
 User interaction is critical in order to help build out the site. The contact form will enable the current featured toilets to be kept up-yo-date with any changes
 reported, and ultimately, the site can then be a nationwide site with public help. This will then mean that it can be used for checking ahead before a day out. 
 
 ### Features Left to Implement
 
-#### 1. Search Function
+### 1. Search Function
 
 The ability to search by postcode or current location will help with making the site easier to navigate.
 
-#### 2. Directions
+### 2. Directions
 
 Incorporating a feature which gives directions to the public conveniences will also make the site far more user friendly.
 
-#### 3. Ratings
+### 3. Ratings
 
 In the future, I would like to incorporate a cleanliness rating into the site. This will help with user interaction and 
 enable people to avoid toilets that have been rated as unclean.
 
-#### 4. Breastfeeding guide
+### 4. Breastfeeding guide
 
 On either a separate page, or incorporated into the existing map page, in the future I would like to incorporate details on breastfeeding 
 friendly locations.
 
-##### 5. Filter Features
+### 5. Features Filter 
 
 The ability to be able to filter the listed toilets would help the user experience. For example, showing only toilets that are accessible by car, or that 
 the baby change facilities are accessible to all.
@@ -162,8 +169,9 @@ were no syntax errors on any of the pages of the project.
 
 * [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* 
 
-Each page of HTML and the CSS file were all checked. All results came back as completely clear of errors.
+Each page of Javascript, HTML and the CSS file were all checked. All results came back as completely clear of errors.
 
 * Results
     * HTML
@@ -173,22 +181,55 @@ Each page of HTML and the CSS file were all checked. All results came back as co
 
     * [CSS]()
 
+    * [JavaScript]()
+
 
 ### Testing User Stories from User Experience Section
 
 * **User Stories** 
     * **First Time User Goals**
         1. As a first time user, I will want to look to find where the nearest toilet is when in an area I do not know
+
+         * The map feature enables people to look for their location on the map to pinpoint where their nearest toilet is. This could be improved by the 
+           addition of a "your location" feature, or a postcode look up. 
+
+        ![](./documentation/screenshot-map2.png)
+        
         2. As a first time user, I will want to be able to use the maps feature to look for the fastest way to get to the toilet
+
+         * While the map doesn't currently show the fastest route, users can zoom in to manually check their route. This would be 
+           improve with the addition of a live directions feature.
+
         3. As a first time user, I will want to look at the amenities of a toilet to make sure that it will suit my needs before I get there
 
+         * On clicking the toilet roll on the map, a text box pops up giving the full address and any relevant information, like if there is a cubicle that can fit
+           a pushchair in, if the toilets are accessible by car or on foot etc. This ensures that they can make sure that the toilet has the amenities that they need 
+           before travelling. 
+
+         ![](./documentation/screenshot-map-info-window.png)   
+
     * **Returning User Goals**
-        1. I will want to help to update the site with any changes to the toilest that I frequently visit
-        2. I will want to be able to plan ahead on trips out to make sure that local toilets have the facilities that I need
+        1. As a returning user, I will want to help to update the site with any changes to the toilest that I frequently visit
+
+         * The contact form will enable users to email to update the site with any changes to the facilities there, for example if the site once only had 
+           a baby change that was accessible in the female toilets but have now added further facilities. 
+
+          ![](./documentation/screenshot-contact-form.png)   
+
+        2. As a returning user, I will want to be able to plan ahead on trips out to make sure that local toilets have the facilities that I need
+
+         * The info windows on the map will enable users to plan ahead on trips out and know what the facilities are like in the area that they are travelling to. 
+           This will help them to know in advance if there are any toilets that they need to avoid as they do not suit their needs.
     
     * **Frequent User Goals**
         1. I will want to use the contact form to help to build and improve the site
+
+         * In time, the site will grow through user interaction. The contact form will enable users to inform us of other toilets that they know of that we can 
+           feature on the site.
+
         2. I will want to plan ahead and look for toilets in areas that I am planning on visiting
+
+         * The site will give the users the ability to see where the nearest toilets are on a day out, and be able to avoid any areas with no suitable public toilets.
 
 
 ### Further Testing
@@ -212,8 +253,24 @@ Each page of HTML and the CSS file were all checked. All results came back as co
 * Friends were asked to review the site on different devices, screenshot any issues and point out any bugs or 
 user experience issues.
 
+### Contact Form
+1. Form cannot be submitted without a name.
+2. Form cannot be submitted if a valid email address is not entered.
+3. Text box must be completed for the form to be submitted.
+4. When all sections of the form are completed, the form submits correctly and the Success message appears.
+5. Success message only shows on contact form when all parts of the form are completed correctly and email is sent.
+6. Form message is received by host email, and automatic repy is sent to user's email address.  
+
 ### Bugs
 
+1. Input boxes overhanged the contact form at smaller screen sizes. This was corrected through the use of media galleries.
+2. On the smallest screen size, the JS burger icon jumped to under the page name causing issues with the slideshow. This was
+   corrected with the use of a media query to make the text smaller on smaller screen sizes.
+3. The slideshow caused the text box underneath and the footer to move. This was corrected by resizing the images to ensure 
+   the smooth transition between slides. 
+4. On user testing it was found that some users were confused by the use of red flags to show where the toilets were. I have 
+   changed the icon to a toilet roll, and also explained this in the content on that page to improve user experience. 
+5. Some users found that the contact form labels did not render correctly on mobile. This was corrected through shortening the content.
 
 ## Deployment
 
@@ -227,9 +284,45 @@ user experience issues.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. Scroll back down through the page to find the site link in the "GitHub Pages" section.
 
+**Running Locate a Loo Online Locally**
+
+How to clone Locate a Loo from GitHub
+
+1. Navigate to /rachel2308/locate-a-loo
+2. Click on the green Code button.
+3. Copy the URL listed.
+4. Start up your IDE and navigate to the file location.
+5. To clone, copy this code and input it into your terminal:
+
+http://github.com/rachel2308/locatealoo.git
+
+
+
 ## Credits
 
+### Code
 
+* Code for the slideshow was adapted from [W3 Schools](https://www.w3schools.com/w3css/w3css_slideshow.asp)
+* Code for the maps was adapted from [Google maps platform:](https://developers.google.com/maps/documentation/javascript/overview)
+* Code for the navbar was adapted from [W3 Schools](https://www.w3schools.com/howto/howto_css_navbar_icon.asp)
 
+### Content
+
+All content on the site is original 
+
+### Media
+
+Thanks to my employers for the use of images from the works image library
+
+### Acknowledgments
+
+* Thanks to the Mums on the local facebook page for their input into the features that the site should have
+* The Slack community for their help and support
+* My mentor, Aaron Sinnot for his help throughout the project
+* Katharine Allison, for her help with the content on the site
+
+and most importantly
+
+* My children, whose unending cries of "Mummy I need a wee" while out created the panic that inspired this project!
 ---
 
