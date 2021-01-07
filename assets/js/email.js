@@ -8,8 +8,10 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            window.alert("Thank you for your email!");
+            document.getElementById("emailcheck").innerHTML= "Success! Your email has been sent.";
+            document.getElementById("myForm").reset();
         },
+        
         function(error) {
             console.log("FAILED", error);
         

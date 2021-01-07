@@ -116,7 +116,7 @@ Incorporating a feature which gives directions to the public conveniences will a
 In the future, I would like to incorporate a cleanliness rating into the site. This will help with user interaction and 
 enable people to avoid toilets that have been rated as unclean.
 
-#### 4. Breastffeding guide
+#### 4. Breastfeeding guide
 
 On either a separate page, or incorporated into the existing map page, in the future I would like to incorporate details on breastfeeding 
 friendly locations.
