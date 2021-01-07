@@ -9,6 +9,7 @@ function sendMail(contactForm) {
         })
 
 /* Code to bring up a success message and clear form once email has been sent */        
+
         .then(
             function(response) {
                 console.log("SUCCESS", response);

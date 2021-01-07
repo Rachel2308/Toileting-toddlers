@@ -1,3 +1,4 @@
+/* Data for toilet locations on map */
 
 const locations = [{
         lat: 52.41232,

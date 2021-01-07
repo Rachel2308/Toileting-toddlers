@@ -156,7 +156,7 @@ the baby change facilities are accessible to all.
 9. [Google maps platform:](https://developers.google.com/maps/documentation/javascript/overview)
     * Documentation on the Google Maps Platform page was used to incorporate the cluster markers and the info windows.
 10. [W3 Schools](https://www.w3schools.com/w3css/w3css_slideshow.asp)
-    * Tutorials from W3 schools formed the babis of the slideshopw on the front page.
+    * Tutorials from W3 schools formed the babis of the slideshow on the front page.
 11. Languages used
     * HTML
     * CSS
@@ -169,20 +169,23 @@ were no syntax errors on any of the pages of the project.
 
 * [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-* 
+* [JS Hint](https://jshint.com/)
 
 Each page of Javascript, HTML and the CSS file were all checked. All results came back as completely clear of errors.
 
 * Results
     * HTML
-        *[Homepage]()
-        *[Toilets]()
-        *[Contact Us]()
+        * [Homepage]()
+        * [Toilets]()
+        * [Contact Us]()
 
     * [CSS]()
 
-    * [JavaScript]()
-
+    * Javascript 
+        * [email.js]()
+        * [maps.js]()
+        * [data.js]()
+        * [home.js]()
 
 ### Testing User Stories from User Experience Section
 
@@ -261,6 +264,16 @@ user experience issues.
 5. Success message only shows on contact form when all parts of the form are completed correctly and email is sent.
 6. Form message is received by host email, and automatic repy is sent to user's email address.  
 
+### Front Page Slideshow 
+A complete round of the slideshow was viewed on different devices to ensure that all images render properly.
+
+### Map
+1. All toilet roll icons function and bring up the correct information
+2. The clusterer markers cause the map to zoom in to reveal the toilet markers
+3. Maps render on all devices well
+4. Info windows are clear on all devices.
+
+
 ### Bugs
 
 1. Input boxes overhanged the contact form at smaller screen sizes. This was corrected through the use of media galleries.
@@ -271,7 +284,9 @@ user experience issues.
 4. On user testing it was found that some users were confused by the use of red flags to show where the toilets were. I have 
    changed the icon to a toilet roll, and also explained this in the content on that page to improve user experience. 
 5. Some users found that the contact form labels did not render correctly on mobile. This was corrected through shortening the content.
-
+6. Google maps embedded icons and teh clusterer markers did not originally show on the map. On investigation, I found that this was due to its code being 
+   overwritten by my CSS. I amended the class names that were causing the issue and the icons then showed properly.
+     
 ## Deployment
 
 ### GitHub Pages

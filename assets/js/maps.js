@@ -1,4 +1,5 @@
 /* Code based on code on the google maps JavaScript API documentation */
+
 function initMap() {
     let map = new google.maps.Map(document.getElementById("map"), {
         zoom: 14,
@@ -19,7 +20,7 @@ function initMap() {
         google.maps.event.addListener(marker, 'click', function(evt) {
             window.setContent(location.info);
             window.open(map, marker);
-        })
+        });
         return marker;
     });
 
@@ -29,7 +30,6 @@ function initMap() {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 }
-
 
 let markers = locations.map(function(location, i) {
     return new google.maps.Marker({
